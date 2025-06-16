@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="/img/joystick_icon.ico" type="image/x-icon">
+    <title>Memory Card Game</title>
+</head>
+<body>
+    <h1>Atminties Zaidimas</h1>
+    <div class="game-info">
+        <p>Bandymai: <span id="attempts"></span></p>
+        <p>Rastos poros: <span id="matches">0</span> / <span id="totalPairs">8</span></p>
+        <p>Laikas: <span id="time">0</span></p>
+    </div>
+
+    <div class="controls">
+        <button id="startBtn">Pradeti zaidima</button>
+        <button id="restartBtn" disabled>Naujas zaidimas</button>
+    </div>
+
+    <div class="game-board" id="gameBoard"></div>
+    
+    <script src="game.js"></script>
+</body>
+</html>
